@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAD6939222A820AC000A9F5F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6939122A820AC000A9F5F /* CustomButton.swift */; };
+		FAD6939622A829E9000A9F5F /* MySplitViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6939522A829E9000A9F5F /* MySplitViewViewController.swift */; };
+		FAD6939922A82D6C000A9F5F /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD6939722A82D6C000A9F5F /* Detail.storyboard */; };
+		FAD6939B22A82E18000A9F5F /* xibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD6939A22A82E18000A9F5F /* xibView.xib */; };
+		FAD6939D22A82F2E000A9F5F /* xibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6939C22A82F2E000A9F5F /* xibView.swift */; };
 		FAF1922622A3A64E007FB8A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1922522A3A64E007FB8A7 /* AppDelegate.swift */; };
 		FAF1922822A3A64E007FB8A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1922722A3A64E007FB8A7 /* ViewController.swift */; };
 		FAF1922B22A3A64E007FB8A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF1922922A3A64E007FB8A7 /* Main.storyboard */; };
 		FAF1922D22A3A64F007FB8A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF1922C22A3A64F007FB8A7 /* Assets.xcassets */; };
-		FAF1923022A3A64F007FB8A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF1922E22A3A64F007FB8A7 /* LaunchScreen.storyboard */; };
+		FAF1923822A6D3B6007FB8A7 /* picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAF1923722A6D3B6007FB8A7 /* picture.jpg */; };
+		FAF1923A22A6D5EC007FB8A7 /* SwiftSplitView1.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF1923922A6D5EC007FB8A7 /* SwiftSplitView1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FAD6939122A820AC000A9F5F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FAD6939522A829E9000A9F5F /* MySplitViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySplitViewViewController.swift; sourceTree = "<group>"; };
+		FAD6939822A82D6C000A9F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Otus_HW_1/Base.lproj/Detail.storyboard; sourceTree = "<group>"; };
+		FAD6939A22A82E18000A9F5F /* xibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = xibView.xib; sourceTree = "<group>"; };
+		FAD6939C22A82F2E000A9F5F /* xibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xibView.swift; sourceTree = "<group>"; };
 		FAF1922222A3A64E007FB8A7 /* Otus_HW_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otus_HW_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF1922522A3A64E007FB8A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF1922722A3A64E007FB8A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAF1922A22A3A64E007FB8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF1922C22A3A64F007FB8A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAF1922F22A3A64F007FB8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF1923122A3A64F007FB8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF1923722A6D3B6007FB8A7 /* picture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = picture.jpg; sourceTree = "<group>"; };
+		FAF1923922A6D5EC007FB8A7 /* SwiftSplitView1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwiftSplitView1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAC16A3422AACA5600552721 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1922922A3A64E007FB8A7 /* Main.storyboard */,
+				FAD6939722A82D6C000A9F5F /* Detail.storyboard */,
+				FAD6939A22A82E18000A9F5F /* xibView.xib */,
+				FAD6939C22A82F2E000A9F5F /* xibView.swift */,
+				FAD6939122A820AC000A9F5F /* CustomButton.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FAC16A3522AACABA00552721 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6939522A829E9000A9F5F /* MySplitViewViewController.swift */,
+				FAF1922722A3A64E007FB8A7 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAC16A3622AACB0E00552721 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1923722A6D3B6007FB8A7 /* picture.jpg */,
+				FAF1923922A6D5EC007FB8A7 /* SwiftSplitView1.png */,
+				FAF1922C22A3A64F007FB8A7 /* Assets.xcassets */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		FAF1921922A3A64E007FB8A7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +97,10 @@
 		FAF1922422A3A64E007FB8A7 /* Otus_HW_1 */ = {
 			isa = PBXGroup;
 			children = (
+				FAC16A3622AACB0E00552721 /* Image */,
+				FAC16A3522AACABA00552721 /* Controllers */,
+				FAC16A3422AACA5600552721 /* UI */,
 				FAF1922522A3A64E007FB8A7 /* AppDelegate.swift */,
-				FAF1922722A3A64E007FB8A7 /* ViewController.swift */,
-				FAF1922922A3A64E007FB8A7 /* Main.storyboard */,
-				FAF1922C22A3A64F007FB8A7 /* Assets.xcassets */,
-				FAF1922E22A3A64F007FB8A7 /* LaunchScreen.storyboard */,
 				FAF1923122A3A64F007FB8A7 /* Info.plist */,
 			);
 			path = Otus_HW_1;
@@ -122,9 +164,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF1923022A3A64F007FB8A7 /* LaunchScreen.storyboard in Resources */,
+				FAF1923A22A6D5EC007FB8A7 /* SwiftSplitView1.png in Resources */,
 				FAF1922D22A3A64F007FB8A7 /* Assets.xcassets in Resources */,
+				FAD6939922A82D6C000A9F5F /* Detail.storyboard in Resources */,
+				FAF1923822A6D3B6007FB8A7 /* picture.jpg in Resources */,
 				FAF1922B22A3A64E007FB8A7 /* Main.storyboard in Resources */,
+				FAD6939B22A82E18000A9F5F /* xibView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,28 +180,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD6939D22A82F2E000A9F5F /* xibView.swift in Sources */,
 				FAF1922822A3A64E007FB8A7 /* ViewController.swift in Sources */,
 				FAF1922622A3A64E007FB8A7 /* AppDelegate.swift in Sources */,
+				FAD6939622A829E9000A9F5F /* MySplitViewViewController.swift in Sources */,
+				FAD6939222A820AC000A9F5F /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		FAD6939722A82D6C000A9F5F /* Detail.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD6939822A82D6C000A9F5F /* Base */,
+			);
+			name = Detail.storyboard;
+			sourceTree = "<group>";
+		};
 		FAF1922922A3A64E007FB8A7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FAF1922A22A3A64E007FB8A7 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FAF1922E22A3A64F007FB8A7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAF1922F22A3A64F007FB8A7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -289,7 +337,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "IP-Mezencev.Otus-HW-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mezencev.Otus-HW-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +355,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "IP-Mezencev.Otus-HW-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mezencev.Otus-HW-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
