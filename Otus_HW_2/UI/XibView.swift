@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable class xibView: UIView {
+@IBDesignable class XibView: UIView {
 
     override init(frame: CGRect){
         super.init(frame: frame)
@@ -22,7 +22,7 @@ import UIKit
     
    private  func configure(){
         let bundle = Bundle.main
-        if let nib = bundle.loadNibNamed("xibView", owner: nil, options: nil),
+        if let nib = bundle.loadNibNamed("XibView", owner: nil, options: nil),
             let _view = nib[0] as? UIView{
             addSubview(_view)
         }

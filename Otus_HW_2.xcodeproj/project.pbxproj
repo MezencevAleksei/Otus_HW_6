@@ -7,32 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA26EC8C22AD7F2D00DB2ADA /* VievControllerLifecycleBehaviors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26EC8B22AD7F2D00DB2ADA /* VievControllerLifecycleBehaviors.swift */; };
+		FA26EC8E22AD88A800DB2ADA /* BenchmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26EC8D22AD88A800DB2ADA /* BenchmarkViewController.swift */; };
+		FA26EC9022AE213D00DB2ADA /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26EC8F22AE213D00DB2ADA /* ProfilViewController.swift */; };
 		FAD6939222A820AC000A9F5F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6939122A820AC000A9F5F /* CustomButton.swift */; };
 		FAD6939622A829E9000A9F5F /* MySplitViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6939522A829E9000A9F5F /* MySplitViewViewController.swift */; };
 		FAD6939922A82D6C000A9F5F /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD6939722A82D6C000A9F5F /* Detail.storyboard */; };
-		FAD6939B22A82E18000A9F5F /* xibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD6939A22A82E18000A9F5F /* xibView.xib */; };
-		FAD6939D22A82F2E000A9F5F /* xibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6939C22A82F2E000A9F5F /* xibView.swift */; };
+		FAD6939B22A82E18000A9F5F /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD6939A22A82E18000A9F5F /* XibView.xib */; };
+		FAD6939D22A82F2E000A9F5F /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6939C22A82F2E000A9F5F /* XibView.swift */; };
+		FAE3810522B384FC00B5C016 /* Feed3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3810422B384FC00B5C016 /* Feed3ViewController.swift */; };
 		FAF1922622A3A64E007FB8A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1922522A3A64E007FB8A7 /* AppDelegate.swift */; };
 		FAF1922822A3A64E007FB8A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1922722A3A64E007FB8A7 /* ViewController.swift */; };
 		FAF1922B22A3A64E007FB8A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF1922922A3A64E007FB8A7 /* Main.storyboard */; };
 		FAF1922D22A3A64F007FB8A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF1922C22A3A64F007FB8A7 /* Assets.xcassets */; };
-		FAF1923822A6D3B6007FB8A7 /* picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAF1923722A6D3B6007FB8A7 /* picture.jpg */; };
+		FAF1923822A6D3B6007FB8A7 /* Picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAF1923722A6D3B6007FB8A7 /* Picture.jpg */; };
 		FAF1923A22A6D5EC007FB8A7 /* SwiftSplitView1.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF1923922A6D5EC007FB8A7 /* SwiftSplitView1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA26EC8B22AD7F2D00DB2ADA /* VievControllerLifecycleBehaviors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VievControllerLifecycleBehaviors.swift; sourceTree = "<group>"; };
+		FA26EC8D22AD88A800DB2ADA /* BenchmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkViewController.swift; sourceTree = "<group>"; };
+		FA26EC8F22AE213D00DB2ADA /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
 		FAD6939122A820AC000A9F5F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		FAD6939522A829E9000A9F5F /* MySplitViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySplitViewViewController.swift; sourceTree = "<group>"; };
 		FAD6939822A82D6C000A9F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Otus_HW_1/Base.lproj/Detail.storyboard; sourceTree = "<group>"; };
-		FAD6939A22A82E18000A9F5F /* xibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = xibView.xib; sourceTree = "<group>"; };
-		FAD6939C22A82F2E000A9F5F /* xibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xibView.swift; sourceTree = "<group>"; };
-		FAF1922222A3A64E007FB8A7 /* Otus_HW_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otus_HW_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD6939A22A82E18000A9F5F /* XibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
+		FAD6939C22A82F2E000A9F5F /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		FAE3810422B384FC00B5C016 /* Feed3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed3ViewController.swift; sourceTree = "<group>"; };
+		FAF1922222A3A64E007FB8A7 /* Otus_HW_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otus_HW_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF1922522A3A64E007FB8A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF1922722A3A64E007FB8A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAF1922A22A3A64E007FB8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF1922C22A3A64F007FB8A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF1923122A3A64F007FB8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAF1923722A6D3B6007FB8A7 /* picture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = picture.jpg; sourceTree = "<group>"; };
+		FAF1923722A6D3B6007FB8A7 /* Picture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Picture.jpg; sourceTree = "<group>"; };
 		FAF1923922A6D5EC007FB8A7 /* SwiftSplitView1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwiftSplitView1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,13 +55,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA26EC8A22AD7F0B00DB2ADA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FA26EC8B22AD7F2D00DB2ADA /* VievControllerLifecycleBehaviors.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		FAC16A3422AACA5600552721 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				FAF1922922A3A64E007FB8A7 /* Main.storyboard */,
 				FAD6939722A82D6C000A9F5F /* Detail.storyboard */,
-				FAD6939A22A82E18000A9F5F /* xibView.xib */,
-				FAD6939C22A82F2E000A9F5F /* xibView.swift */,
+				FAD6939A22A82E18000A9F5F /* XibView.xib */,
+				FAD6939C22A82F2E000A9F5F /* XibView.swift */,
 				FAD6939122A820AC000A9F5F /* CustomButton.swift */,
 			);
 			path = UI;
@@ -64,6 +80,9 @@
 			children = (
 				FAD6939522A829E9000A9F5F /* MySplitViewViewController.swift */,
 				FAF1922722A3A64E007FB8A7 /* ViewController.swift */,
+				FA26EC8D22AD88A800DB2ADA /* BenchmarkViewController.swift */,
+				FA26EC8F22AE213D00DB2ADA /* ProfilViewController.swift */,
+				FAE3810422B384FC00B5C016 /* Feed3ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -71,7 +90,7 @@
 		FAC16A3622AACB0E00552721 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				FAF1923722A6D3B6007FB8A7 /* picture.jpg */,
+				FAF1923722A6D3B6007FB8A7 /* Picture.jpg */,
 				FAF1923922A6D5EC007FB8A7 /* SwiftSplitView1.png */,
 				FAF1922C22A3A64F007FB8A7 /* Assets.xcassets */,
 			);
@@ -81,7 +100,7 @@
 		FAF1921922A3A64E007FB8A7 = {
 			isa = PBXGroup;
 			children = (
-				FAF1922422A3A64E007FB8A7 /* Otus_HW_1 */,
+				FAF1922422A3A64E007FB8A7 /* Otus_HW_2 */,
 				FAF1922322A3A64E007FB8A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,29 +108,30 @@
 		FAF1922322A3A64E007FB8A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAF1922222A3A64E007FB8A7 /* Otus_HW_1.app */,
+				FAF1922222A3A64E007FB8A7 /* Otus_HW_2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAF1922422A3A64E007FB8A7 /* Otus_HW_1 */ = {
+		FAF1922422A3A64E007FB8A7 /* Otus_HW_2 */ = {
 			isa = PBXGroup;
 			children = (
+				FA26EC8A22AD7F0B00DB2ADA /* Protocol */,
 				FAC16A3622AACB0E00552721 /* Image */,
 				FAC16A3522AACABA00552721 /* Controllers */,
 				FAC16A3422AACA5600552721 /* UI */,
 				FAF1922522A3A64E007FB8A7 /* AppDelegate.swift */,
 				FAF1923122A3A64F007FB8A7 /* Info.plist */,
 			);
-			path = Otus_HW_1;
+			path = Otus_HW_2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAF1922122A3A64E007FB8A7 /* Otus_HW_1 */ = {
+		FAF1922122A3A64E007FB8A7 /* Otus_HW_2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAF1923422A3A64F007FB8A7 /* Build configuration list for PBXNativeTarget "Otus_HW_1" */;
+			buildConfigurationList = FAF1923422A3A64F007FB8A7 /* Build configuration list for PBXNativeTarget "Otus_HW_2" */;
 			buildPhases = (
 				FAF1921E22A3A64E007FB8A7 /* Sources */,
 				FAF1921F22A3A64E007FB8A7 /* Frameworks */,
@@ -121,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = Otus_HW_1;
+			name = Otus_HW_2;
 			productName = Otus_HW_1;
-			productReference = FAF1922222A3A64E007FB8A7 /* Otus_HW_1.app */;
+			productReference = FAF1922222A3A64E007FB8A7 /* Otus_HW_2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FAF1921D22A3A64E007FB8A7 /* Build configuration list for PBXProject "Otus_HW_1" */;
+			buildConfigurationList = FAF1921D22A3A64E007FB8A7 /* Build configuration list for PBXProject "Otus_HW_2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -154,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAF1922122A3A64E007FB8A7 /* Otus_HW_1 */,
+				FAF1922122A3A64E007FB8A7 /* Otus_HW_2 */,
 			);
 		};
 /* End PBXProject section */
@@ -167,9 +187,9 @@
 				FAF1923A22A6D5EC007FB8A7 /* SwiftSplitView1.png in Resources */,
 				FAF1922D22A3A64F007FB8A7 /* Assets.xcassets in Resources */,
 				FAD6939922A82D6C000A9F5F /* Detail.storyboard in Resources */,
-				FAF1923822A6D3B6007FB8A7 /* picture.jpg in Resources */,
+				FAF1923822A6D3B6007FB8A7 /* Picture.jpg in Resources */,
 				FAF1922B22A3A64E007FB8A7 /* Main.storyboard in Resources */,
-				FAD6939B22A82E18000A9F5F /* xibView.xib in Resources */,
+				FAD6939B22A82E18000A9F5F /* XibView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,10 +200,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD6939D22A82F2E000A9F5F /* xibView.swift in Sources */,
+				FA26EC9022AE213D00DB2ADA /* ProfilViewController.swift in Sources */,
+				FAD6939D22A82F2E000A9F5F /* XibView.swift in Sources */,
+				FA26EC8E22AD88A800DB2ADA /* BenchmarkViewController.swift in Sources */,
+				FA26EC8C22AD7F2D00DB2ADA /* VievControllerLifecycleBehaviors.swift in Sources */,
 				FAF1922822A3A64E007FB8A7 /* ViewController.swift in Sources */,
 				FAF1922622A3A64E007FB8A7 /* AppDelegate.swift in Sources */,
 				FAD6939622A829E9000A9F5F /* MySplitViewViewController.swift in Sources */,
+				FAE3810522B384FC00B5C016 /* Feed3ViewController.swift in Sources */,
 				FAD6939222A820AC000A9F5F /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mezencev.Otus-HW-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mezencev.Otus-HW-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,7 +379,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mezencev.Otus-HW-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mezencev.Otus-HW-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -365,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAF1921D22A3A64E007FB8A7 /* Build configuration list for PBXProject "Otus_HW_1" */ = {
+		FAF1921D22A3A64E007FB8A7 /* Build configuration list for PBXProject "Otus_HW_2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAF1923222A3A64F007FB8A7 /* Debug */,
@@ -374,7 +398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAF1923422A3A64F007FB8A7 /* Build configuration list for PBXNativeTarget "Otus_HW_1" */ = {
+		FAF1923422A3A64F007FB8A7 /* Build configuration list for PBXNativeTarget "Otus_HW_2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAF1923522A3A64F007FB8A7 /* Debug */,
