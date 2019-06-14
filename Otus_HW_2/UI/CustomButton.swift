@@ -10,15 +10,15 @@ import UIKit
 
 @IBDesignable class CustomButton: UIButton {
 
-    @IBInspectable var cRadius: CGFloat = 10 {
+    @IBInspectable var cornerRadius: CGFloat = 10 {
         didSet{
-            self.layer.cornerRadius = cRadius
+            self.layer.cornerRadius = cornerRadius
         }
     }
 
-    @IBInspectable var tColor: UIColor = UIColor.gray {
+    @IBInspectable var titleColor: UIColor = UIColor.gray {
         didSet{
-            self.titleLabel?.textColor = tColor
+            self.titleLabel?.textColor = titleColor
         }
     }
     
