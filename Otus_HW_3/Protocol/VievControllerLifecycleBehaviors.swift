@@ -56,6 +56,10 @@ struct StatusBarColorChange: ViewControllerLifecycleBehavior {
        viewController.setNeedsStatusBarAppearanceUpdate()
     }
     
+    func beforeDisappearing(_ viewController: UIViewController) {
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.default
+        viewController.setNeedsStatusBarAppearanceUpdate()
+    }
 }
 
 struct ViewBackgroundColorChange: ViewControllerLifecycleBehavior {

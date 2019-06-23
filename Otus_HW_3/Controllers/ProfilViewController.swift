@@ -15,7 +15,6 @@ class ProfilViewController: UIViewController {
         var arrayyOfBehavior = [ViewControllerLifecycleBehavior]()
         arrayyOfBehavior.append(ViewBackgroundColorChange())
         arrayyOfBehavior.append(StatusBarColorChange())
-        setNeedsStatusBarAppearanceUpdate()
         addBehaviors(behaviors: arrayyOfBehavior)
         // Do any additional setup after loading the view.
     }
