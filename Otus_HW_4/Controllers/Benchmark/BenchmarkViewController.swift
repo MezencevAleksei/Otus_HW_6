@@ -18,19 +18,32 @@ class BenchmarkViewController: UIViewController {
     
     @IBOutlet var collectionView: UICollectionView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(CustomeTimerView.nib, forCellWithReuseIdentifier: CustomeTimerView.reuseID)
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(changeLayout))
     
-        addBehaviors(behaviors: [AddTimer()])
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Update layout", style: .plain, target: self, action: #selector(changeLayout))
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Update PieCharts", style: .plain, target: self, action: #selector(updatePieChartInVisibleCell))
+            
+        //addBehaviors(behaviors: [AddTimer()])
     }
     
     @objc func changeLayout() {
         collectionView.setCollectionViewLayout(layoutProvider.getLayout(), animated: true)
+        updateVisibleCell()
+    }
+    
+    @objc func updatePieChartInVisibleCell() {
+        updateVisibleCell()
+    }
+    
+    private func updateVisibleCell(){
+        for cell in collectionView.visibleCells {
+            (cell as! CustomeTimerView).update()
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
@@ -46,6 +59,13 @@ class BenchmarkViewController: UIViewController {
         }
     }
     
+    
+    override func viewDidAppear(_ animated: Bool) {
+        for timerModel in TimerModels {
+            timerModel.value.initTimer()
+        }
+        
+    }
 }
 
 extension BenchmarkViewController:UICollectionViewDelegate,UICollectionViewDataSource{
@@ -61,12 +81,14 @@ extension BenchmarkViewController:UICollectionViewDelegate,UICollectionViewDataS
         if let timerModel = TimerModels[indexPath] {
             timerModel.cellDelegate = timerCell
             timerCell.model = timerModel
+            
         }else{
             let newTimerModel   = TimerCellModel()
             newTimerModel.cellDelegate = timerCell
             TimerModels[indexPath] = newTimerModel
             timerCell.model     = newTimerModel
         }
+        timerCell.update()
         return timerCell
     }
     

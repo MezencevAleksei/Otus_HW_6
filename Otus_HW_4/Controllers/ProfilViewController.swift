@@ -12,10 +12,10 @@ class ProfilViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var arrayyOfBehavior = [ViewControllerLifecycleBehavior]()
-        arrayyOfBehavior.append(ViewBackgroundColorChange())
-        arrayyOfBehavior.append(StatusBarColorChange())
-        addBehaviors(behaviors: arrayyOfBehavior)
+        //var arrayyOfBehavior = [ViewControllerLifecycleBehavior]()
+        //arrayyOfBehavior.append(ViewBackgroundColorChange())
+        //arrayyOfBehavior.append(StatusBarColorChange())
+        //addBehaviors(behaviors: arrayyOfBehavior)
         // Do any additional setup after loading the view.
     }
     
