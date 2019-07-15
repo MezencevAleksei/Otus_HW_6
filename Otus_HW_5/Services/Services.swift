@@ -11,11 +11,15 @@ import Foundation
 
 class Services {
     
-    static var dataProvider: DataProvider = {
-        return DataProvider()
+    static var feedDataProvider: FeedDataProvider = {
+        return FeedDataProvider()
     }()
     
     static var layoutProvider: LayoutProvider = {
        return LayoutProvider()
+    }()
+    
+    static var stringGenerator: StringGenerator = {
+        return StringGenerator()
     }()
 }

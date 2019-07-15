@@ -14,8 +14,4 @@ class SessionSummaryViewController: UIViewController {
         super.viewDidLoad()
 
     }
-    
-
-  
-
 }
