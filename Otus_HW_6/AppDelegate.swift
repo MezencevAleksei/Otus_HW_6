@@ -46,3 +46,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate {
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        let storyboard = UIStoryboard(name: "ShareExtensionStoryboard", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "ShareExtensionViewController")
+
+        if let rootViewController = self.window?.rootViewController {
+            if let shareExtensionController  = vc as? ShareExtensionViewController {
+                if let ud = UserDefaults(suiteName: "group.OtusHW.OtusShare") {
+                    if  let text = ud.string(forKey: "text"){
+                        shareExtensionController.text = text
+                    }
+                }
+            }
+            rootViewController.present(vc, animated: false, completion: nil)
+            return true
+        }
+        return false
+    }
+    
+}

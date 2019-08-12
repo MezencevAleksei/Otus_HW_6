@@ -52,12 +52,12 @@ struct HideNavigationBarBehavior: ViewControllerLifecycleBehavior {
 
 struct StatusBarColorChange: ViewControllerLifecycleBehavior {
     func beforeAppearing(_ viewController: UIViewController) {
-       UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
+       //UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
        viewController.setNeedsStatusBarAppearanceUpdate()
     }
     
     func beforeDisappearing(_ viewController: UIViewController) {
-        UIApplication.shared.statusBarStyle = UIStatusBarStyle.default
+        //UIApplication.shared.statusBarStyle = UIStatusBarStyle.default
         viewController.setNeedsStatusBarAppearanceUpdate()
     }
 }
